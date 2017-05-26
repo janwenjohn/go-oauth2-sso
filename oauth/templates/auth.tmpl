@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+    <form action="oauth/confirm">
+        <input type="hidden" value="{{.}}" name="code"/>
+        <input type="submit" value="Confirm"/>
+    </form>
+
+    <form action="oauth/cancel">
+        <input type="hidden" value="{{.}}" name="code"/>
+        <input type="submit" value="Cancel"/>
+    </form>
+
+</body>
+</html>
